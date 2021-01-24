@@ -1,0 +1,87 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: url(./clothes-1839935_1920.jpg) center no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.header {
+  height: 30px;
+  position: relative;
+  top: 40px;
+  left: 0;
+  margin-bottom: 200px;
+}
+
+.header:hover {
+  background-color: rgb(241, 211, 128);
+}
+
+.menu {
+  position: absolute;
+  left: 650px;
+  top: 5px;
+}
+
+.menu__item {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.header__header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 60px;
+  margin-left: 150px;
+  margin-top: 250px;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  margin-right: 40px;
+  background-color: gray;
+  padding: 7px;
+  border-radius: 7px;  
+}
+
+.button:hover {
+  color: gray;
+  font-size: 14px;
+  background-color: rgb(241, 211, 128);
+}
+
+.btn {
+  margin-top: 40px;
+  margin-left: 400px;
+}
